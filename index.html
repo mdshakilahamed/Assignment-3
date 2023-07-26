@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="shortcut icon" href="images/l" type="image/x-icon">
+  <title>Fruit Burst</title>
   <!-- custom color -->
   <script>
     tailwind.config = {
@@ -72,7 +74,7 @@
 
           </div>
           <div class="navbar-end">
-            <div class="flex items-center">
+            <div class="flex lg:items-center">
               <input type="text" placeholder="Search here"
                 class="px-2 py-1 rounded-2xl mr-3 focus:outline-none focus:ring focus:border-blue-300">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
@@ -84,9 +86,6 @@
           </div>
         </div>
       </section>
-
-
-
     </nav>
     <div class="carousel mx-20 my-16 ">
       <!-- first banner -->
@@ -147,7 +146,7 @@
     <!-- sub food item -->
     <section>
       <div
-        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 justify-between bg-white p-5 w-4/5 h-60 mx-auto items-center -mt-40 relative ">
+        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 justify-between bg-white p-5 w-4/5 h-60 mx-auto items-center lg:-mt-40 relative ">
         <div class="text-center">
           <img src="images/fruit1.png" alt="">
           <p>Strawberry</p>
@@ -173,9 +172,9 @@
 
     <!-- Deal of the day -->
     <section class="align-middle my-10">
-      <div class="flex flex-row">
+      <div class="flex lg:flex-row">
         <div class="lg:mx-20">
-          <h1 class="text-5xl font-bold py-7">Deal of the day</h1>
+          <h1 class="text-5xl font-bold py-7 ">Deal of the day</h1>
           <p class="px-">Contrary to popular belief, is not simply random text. It has roots in a piece of classical
             <br> Latin literature from 45 BC, making it over 2000 years old.
           </p>
@@ -359,6 +358,7 @@
 
 
     </section>
+    <button class="bg-[#F85559] text-white p-5 rounded-lg ml-[50%] mt-20">Shop All</button>
     <!-- meet team section -->
     <div class="hero w-[90%] h-[600px] m-20 lg:m-20 " style="background-image: url(images/banner1.png);">
       <div class="hero-overlay bg-opacity-60"></div>
@@ -379,7 +379,61 @@
     </div>
 
 
+    <!-- Why Choose Us section -->
+    <div class=" text-center py-20">
+      <h1 class="text-5xl font-extrabold text-black mb-6">Why Choose Us</h1>
+      <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical<br>Latin literature
+        from 45 BC, making it over 2000 years old.</p>
+    </div>
 
+    <!-- choose item -->
+    <section>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 pb-10">
+        <div>
+          <!-- 1st -->
+          <div class="px-20">
+            <h2 class="text-3xl font-extrabold pb-4">Dedicated Team</h2>
+            <hr class="w-24 h-[1px] bg-black">
+            <p class="pt-4">Professional employees are there for you to pick<br>the most amazing and fresh fruits.</p>
+          </div>
+          <!-- 2nd -->
+          <div class="px-20">
+            <h2 class="text-3xl font-extrabold pb-4 mt-5">Fresh is Best</h2>
+            <hr class="w-24 h-[1px] bg-black">
+            <p class="pt-4">Professional employees are there for you to pick<br>the most amazing and fresh fruits.</p>
+          </div>
+          <!-- 3rd -->
+          <div class="px-20">
+            <h2 class="text-3xl font-extrabold pb-4 mt-5">Gift Certificates</h2>
+            <hr class="w-24 h-[1px] bg-black">
+            <p class="pt-4">Professional employees are there for you to pick<br>the most amazing and fresh fruits.</p>
+          </div>
+        </div>
+        <div class="static">
+          <img src="images/whychoose1.png" alt="">
+        </div>
+        <div>
+          <!-- 4th -->
+          <div class="px-20">
+            <h2 class="text-3xl font-extrabold pb-4 mt-5">Integrated Supplier</h2>
+            <hr class="w-24 h-[1px] bg-black">
+            <p class="pt-4">Professional employees are there for you to pick<br>the most amazing and fresh fruits.</p>
+          </div>
+          <!-- 5th -->
+          <div class="px-20">
+            <h2 class="text-3xl font-extrabold pb-4 mt-5">Sustainable Practice</h2>
+            <hr class="w-24 h-[1px] bg-black">
+            <p class="pt-4">Professional employees are there for you to pick<br>the most amazing and fresh fruits.</p>
+          </div>
+          <!-- 6th -->
+          <div class="px-20">
+            <h2 class="text-3xl font-extrabold pb-4 mt-5">The Benefits Only</h2>
+            <hr class="w-24 h-[1px] bg-black">
+            <p class="pt-4">Professional employees are there for you to pick<br>the most amazing and fresh fruits.</p>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
   <!-- this is footer section -->
   <footer class="footer footer-center p-10 py-28 bg-[#121212] text-base-content rounded">
